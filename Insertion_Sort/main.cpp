@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void insertion_sort (std::vector<int> &arr) {
+void InsertionSort (std::vector<int> &arr) {
     int i = 1;
     while (i < arr.size()) {
         int j = i;
@@ -18,7 +18,7 @@ void insertion_sort (std::vector<int> &arr) {
 int main() {
 
     std::vector<int> arr = {3, 2, 1, 6, 7, 10, 4};
-    insertion_sort(arr);
+    InsertionSort(arr);
     for (const auto &el : arr)
         std::cout << el << " ";
 
